@@ -11,3 +11,4 @@ modules.xml
 workspace.xml
 ../user_interaction.iml
 vcs.xml
+../out
