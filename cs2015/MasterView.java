@@ -35,7 +35,8 @@ public class MasterView extends JFrame {
 		
 		this.details = new Details();
 		details.initialise(controller, bundle);
-		
+
+		this.pack(); // Größe des Fensters passt sich automatisch den Elementen an
 		this.setVisible(true);
 	}
 

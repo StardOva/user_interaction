@@ -87,7 +87,8 @@ public class MainFrame extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		this.buildMenu();
-		
+
+		this.pack(); // Größe des Fensters passt sich automatisch den Elementen an
 		setVisible(true);
 
 	}
